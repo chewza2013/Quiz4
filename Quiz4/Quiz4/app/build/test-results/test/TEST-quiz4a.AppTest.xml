@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="quiz4a.AppTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2025-03-09T07:41:10" hostname="DESKTOP-3VOFDVI" time="0.022">
+  <properties/>
+  <testcase name="createMenager()" classname="quiz4a.AppTest" time="0.02">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;Employee ID: 2&#10;Name: Jane Smith&#10;Salary: 60000.0&#10;Department: IT&#10;Bonus: 5000.0&gt; but was: &lt;Book Title: Test Book&#10;Author: Test Author&#10;Publication Year: 2000&#10;Genre: Test Genre&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Employee ID: 2
+Name: Jane Smith
+Salary: 60000.0
+Department: IT
+Bonus: 5000.0&gt; but was: &lt;Book Title: Test Book
+Author: Test Author
+Publication Year: 2000
+Genre: Test Genre&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at app//quiz4a.AppTest.createMenager(AppTest.java:42)
+	at java.base@21.0.6/java.lang.reflect.Method.invoke(Unknown Source)
+	at java.base@21.0.6/java.util.ArrayList.forEach(Unknown Source)
+	at java.base@21.0.6/java.util.ArrayList.forEach(Unknown Source)
+</failure>
+  </testcase>
+  <testcase name="createEmployee()" classname="quiz4a.AppTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
